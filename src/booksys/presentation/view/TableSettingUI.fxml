@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="tableView" layoutX="65.0" layoutY="106.0" onMouseClicked="#click" prefHeight="239.0" prefWidth="220">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#deleteTable" text="Delete Table" />
+                  <MenuItem mnemonicParsing="false" onAction="#addTable" text="Add Table" />
+              </items>
+            </ContextMenu>
+         </contextMenu></ListView>
+      <Button fx:id="okBtn" layoutX="146.0" layoutY="369.0" mnemonicParsing="false" onAction="#ok" prefHeight="22.0" prefWidth="58.0" text="Ok">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <Label layoutX="120.0" layoutY="41.0" prefHeight="30.0" prefWidth="110.0" text="Table Setting">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <MenuBar prefHeight="26.0" prefWidth="350.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit" />
+                  <MenuItem mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="75.0" layoutY="86.0" prefHeight="14.0" prefWidth="209.0" text="Oid           No.           Places" />
+      <Separator layoutX="133.0" layoutY="108.0" orientation="VERTICAL" prefHeight="239.0" prefWidth="8.0" />
+      <Separator layoutX="214.0" layoutY="106.0" orientation="VERTICAL" prefHeight="239.0" prefWidth="8.0" />
+   </children>
+</AnchorPane>

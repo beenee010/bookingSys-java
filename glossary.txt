@@ -1,0 +1,16 @@
+<용어집>
+
+- Staff: 직원
+- Admin: 관리자 (매니저)
+- Reservation: 예약
+- Walk In: 현장 접수
+- Show Booking: Reservation과 Walk In을 detail하게 보여줌
+- Leave Check: 해당 테이블을 사용하다가 식사를 마치고 레스토랑을 떠난경우
+- Arrival Check: 예약고객 도착
+- Double: 중복 예약
+- Set Table: 테이블을 세팅하는 과정
+- Register: 직원을 등록하는 것
+- Admin Login: 등록된 관리자로 로그인 하는 것
+- Admin Check: 현재 등록하는 직원을 관리자로 설정할 것인지
+- Login: 등록된 직원으로 로그인 하는 것
+- Logout: 현재 로그인된 직원을 로그아웃
